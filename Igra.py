@@ -1,6 +1,17 @@
 import random
+
+amount_players = 0
+while True:
+    try:
+    
+        amount_players = int(input("Сколько игроков в игре?: "))
+        break
+            
+    except:
+        print("Упс! Введены неправильные символы.  Пробуйте снова...")
+
 #Сколько игроков и ролей
-amount_players = int(input("Сколько игроков в игре?: "))
+
 #mafia = int(input("Сколько мафий в игре?: "))
 
 #Создание списка игроков и перемещивание их
